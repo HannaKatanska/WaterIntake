@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1B19BA20BADDB4009E1EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1B19B920BADDB4009E1EF0 /* AppDelegate.swift */; };
+		8D1B19BC20BADDB4009E1EF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1B19BB20BADDB4009E1EF0 /* ViewController.swift */; };
+		8D1B19BF20BADDB4009E1EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1B19BD20BADDB4009E1EF0 /* Main.storyboard */; };
+		8D1B19C120BADDB4009E1EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1B19C020BADDB4009E1EF0 /* Assets.xcassets */; };
+		8D1B19C420BADDB4009E1EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1B19C220BADDB4009E1EF0 /* LaunchScreen.storyboard */; };
+		C831BEF26608067CD0AF649F /* Pods_WaterIntake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D64CBDDBF18C6D95C82596 /* Pods_WaterIntake.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D1B19B620BADDB4009E1EF0 /* WaterIntake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterIntake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1B19B920BADDB4009E1EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D1B19BB20BADDB4009E1EF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D1B19BE20BADDB4009E1EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D1B19C020BADDB4009E1EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D1B19C320BADDB4009E1EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D1B19C520BADDB4009E1EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9DD7DE866CD15E51B05EE5 /* Pods-WaterIntake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterIntake.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterIntake/Pods-WaterIntake.release.xcconfig"; sourceTree = "<group>"; };
+		D75858AE6510900BE10C755F /* Pods-WaterIntake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterIntake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterIntake/Pods-WaterIntake.debug.xcconfig"; sourceTree = "<group>"; };
+		F4D64CBDDBF18C6D95C82596 /* Pods_WaterIntake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterIntake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D1B19B320BADDB4009E1EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831BEF26608067CD0AF649F /* Pods_WaterIntake.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D1B19AD20BADDB4009E1EF0 = {
+			isa = PBXGroup;
+			children = (
+				8D1B19B820BADDB4009E1EF0 /* WaterIntake */,
+				8D1B19B720BADDB4009E1EF0 /* Products */,
+				E3228E5094CD18C33081317D /* Pods */,
+				F9842B7A95102F36D6662BBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D1B19B720BADDB4009E1EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1B19B620BADDB4009E1EF0 /* WaterIntake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D1B19B820BADDB4009E1EF0 /* WaterIntake */ = {
+			isa = PBXGroup;
+			children = (
+				8D1B19B920BADDB4009E1EF0 /* AppDelegate.swift */,
+				8D1B19BB20BADDB4009E1EF0 /* ViewController.swift */,
+				8D1B19BD20BADDB4009E1EF0 /* Main.storyboard */,
+				8D1B19C020BADDB4009E1EF0 /* Assets.xcassets */,
+				8D1B19C220BADDB4009E1EF0 /* LaunchScreen.storyboard */,
+				8D1B19C520BADDB4009E1EF0 /* Info.plist */,
+			);
+			path = WaterIntake;
+			sourceTree = "<group>";
+		};
+		E3228E5094CD18C33081317D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D75858AE6510900BE10C755F /* Pods-WaterIntake.debug.xcconfig */,
+				9A9DD7DE866CD15E51B05EE5 /* Pods-WaterIntake.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9842B7A95102F36D6662BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4D64CBDDBF18C6D95C82596 /* Pods_WaterIntake.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1B19B520BADDB4009E1EF0 /* WaterIntake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1B19C820BADDB4009E1EF0 /* Build configuration list for PBXNativeTarget "WaterIntake" */;
+			buildPhases = (
+				BB3BA94A22F8C14BCFD7F89F /* [CP] Check Pods Manifest.lock */,
+				8D1B19B220BADDB4009E1EF0 /* Sources */,
+				8D1B19B320BADDB4009E1EF0 /* Frameworks */,
+				8D1B19B420BADDB4009E1EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterIntake;
+			productName = WaterIntake;
+			productReference = 8D1B19B620BADDB4009E1EF0 /* WaterIntake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D1B19AE20BADDB4009E1EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ann Katanska";
+				TargetAttributes = {
+					8D1B19B520BADDB4009E1EF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D1B19B120BADDB4009E1EF0 /* Build configuration list for PBXProject "WaterIntake" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D1B19AD20BADDB4009E1EF0;
+			productRefGroup = 8D1B19B720BADDB4009E1EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1B19B520BADDB4009E1EF0 /* WaterIntake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1B19B420BADDB4009E1EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1B19C420BADDB4009E1EF0 /* LaunchScreen.storyboard in Resources */,
+				8D1B19C120BADDB4009E1EF0 /* Assets.xcassets in Resources */,
+				8D1B19BF20BADDB4009E1EF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB3BA94A22F8C14BCFD7F89F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterIntake-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D1B19B220BADDB4009E1EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1B19BC20BADDB4009E1EF0 /* ViewController.swift in Sources */,
+				8D1B19BA20BADDB4009E1EF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D1B19BD20BADDB4009E1EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D1B19BE20BADDB4009E1EF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D1B19C220BADDB4009E1EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D1B19C320BADDB4009E1EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D1B19C620BADDB4009E1EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D1B19C720BADDB4009E1EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D1B19C920BADDB4009E1EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75858AE6510900BE10C755F /* Pods-WaterIntake.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9VRHRB32B;
+				INFOPLIST_FILE = WaterIntake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.annkatanska.WaterIntake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D1B19CA20BADDB4009E1EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9DD7DE866CD15E51B05EE5 /* Pods-WaterIntake.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9VRHRB32B;
+				INFOPLIST_FILE = WaterIntake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.annkatanska.WaterIntake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D1B19B120BADDB4009E1EF0 /* Build configuration list for PBXProject "WaterIntake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1B19C620BADDB4009E1EF0 /* Debug */,
+				8D1B19C720BADDB4009E1EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D1B19C820BADDB4009E1EF0 /* Build configuration list for PBXNativeTarget "WaterIntake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1B19C920BADDB4009E1EF0 /* Debug */,
+				8D1B19CA20BADDB4009E1EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D1B19AE20BADDB4009E1EF0 /* Project object */;
+}
